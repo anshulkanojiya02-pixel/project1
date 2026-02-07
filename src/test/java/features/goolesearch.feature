@@ -5,21 +5,21 @@ Feature: search on googlesearch
 #    And user click on Test login page
 #    Then user successfully enter the login page
 
-#  Scenario Outline: verify user is able to login
-#    Given user is on Practice website
-#    When user click on PRACTICE
-#    And user click on Test login page
-#    And user is on login page
-#    And user enter the <username> and <password>
-#    And user click on login button
-#    And user successfully login
-#    Then user is successfully logedin
-#    Then user click logout
-#    Examples:
-#    |username| password|
-#    |student |Password123|
-#    |incorrectUser|Password123|
-#    |student|incorrectPassword|
+  Scenario Outline: verify user is able to login
+    Given user is on Practice website
+    When user click on PRACTICE
+    And user click on Test login page
+    And user is on login page
+    And user enter the <username> and <password>
+    And user click on login button
+    And user successfully login
+    Then user is successfully logedin
+    Then user click logout
+    Examples:
+    |username| password|
+    |student |Password123|
+    |incorrectUser|Password123|
+    |student|incorrectPassword|
 
 #  Scenario: verify user is able to login
 #    Given user is on Practice website
